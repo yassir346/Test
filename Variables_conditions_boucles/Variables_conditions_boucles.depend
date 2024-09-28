@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1727449464 source:c:\users\youcode\desktop\c challenges\test\variables_conditions_boucles\main.c
+1727513314 source:c:\users\youcode\desktop\c challenges\test\variables_conditions_boucles\main.c
 	<stdio.h>
 	<stdlib.h>
+	<math.h>
 

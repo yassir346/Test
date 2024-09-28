@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
@@ -8,13 +9,33 @@ int main()
     printf("entrez le nombre :");
     scanf("%d", &n);
 
-    for (int i = 0; i < n - 1; i++)
-    {
-    if (n % i == 0)
-    {
-     printf("le nombre n'est pas premier\n");
+    int y  ;
+    int h = 0 ;
+    int o = 2 ;
+
+
+    for (int i = 2 ; i < n - 1 ; i++){
+
+      ////////
+    y = n % i   ;
+
+    if ( y == 0){
+    o = pow(h , i ) ;
+
     }
-    else printf("le nombre est premier\n");
+    ///////
+
     }
+ if (o != 2){
+    printf("non premeir");
+
+    }
+
+     else if (o == 2){
+
+    printf("premier");
+
+    }
+
     return 0;
 }
